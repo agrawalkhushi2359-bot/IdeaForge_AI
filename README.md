@@ -6,6 +6,7 @@
 [![IBM Granite](https://img.shields.io/badge/IBM-Granite%203%208B-052FAD?style=for-the-badge&logo=ibm)](https://www.ibm.com/watsonx)
 [![Python](https://img.shields.io/badge/Python-3.14-yellow?style=for-the-badge&logo=python)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.0-black?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com)
+[![GitHub](https://img.shields.io/badge/GitHub-IdeaForge__AI-181717?style=for-the-badge&logo=github)](https://github.com/agrawalkhushi2359-bot/IdeaForge_AI)
 
 ---
 
