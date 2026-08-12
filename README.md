@@ -2,16 +2,19 @@
 
 > Powered by **IBM Granite Models** on **IBM watsonx.ai Studio**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-bob--project--cjez.onrender.com-blue?style=for-the-badge)](https://bob-project-cjez.onrender.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-blue?style=for-the-badge)](https://bob-project-cjez.onrender.com)
 [![IBM Granite](https://img.shields.io/badge/IBM-Granite%203%208B-052FAD?style=for-the-badge&logo=ibm)](https://www.ibm.com/watsonx)
 [![Python](https://img.shields.io/badge/Python-3.14-yellow?style=for-the-badge&logo=python)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.0-black?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com)
-[![GitHub](https://img.shields.io/badge/GitHub-IdeaForge__AI-181717?style=for-the-badge&logo=github)](https://github.com/agrawalkhushi2359-bot/IdeaForge_AI)
+[![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=for-the-badge)](https://bob-project-cjez.onrender.com)
 
 ---
 
 ## 🚀 Live Demo
+
 👉 **[https://bob-project-cjez.onrender.com](https://bob-project-cjez.onrender.com)**
+
+![IdeaForge AI](https://raw.githubusercontent.com/agrawalkhushi2359-bot/IdeaForge_AI/main/ideaforge-screenshot.png)
 
 ---
 
@@ -70,34 +73,56 @@ User Input (Text + Image Description + Voice Note)
 ## ⚙️ Setup & Run
 
 ```bash
+# Install dependencies
 pip install flask ibm-watsonx-ai requests gunicorn
+
+# Set IBM credentials
 export WATSONX_API_KEY="your-api-key"
 export WATSONX_PROJECT_ID="your-project-id"
 export WATSONX_URL="https://au-syd.ml.cloud.ibm.com"
+
+# Run app
 python app.py
+# Open http://localhost:5000
 ```
 
 ---
 
-## 🎯 Use Cases
+## 📁 Project Structure
 
-- 🎓 Students — Academic projects & research ideas
-- 🚀 Startup Founders — Business idea validation
-- 💼 Entrepreneurs — Market opportunity discovery
-- 🔬 Researchers — Innovation opportunity mapping
-- 🏆 Hackathon Teams — Rapid idea generation
+```
+IdeaForge_AI/
+├── app.py              ← Complete application
+├── requirements.txt    ← Dependencies
+├── Procfile            ← Render config
+└── README.md           ← This file
+```
+
+---
+
+## 🎯 Who Is It For?
+
+- 🎓 **Students** — Academic projects & research ideas
+- 🚀 **Startup Founders** — Business idea validation
+- 💼 **Entrepreneurs** — Market opportunity discovery
+- 🔬 **Researchers** — Innovation opportunity mapping
+- 🏆 **Hackathon Teams** — Rapid idea generation
+- 📱 **Product Teams** — Feature & product ideation
 
 ---
 
 ## 🏅 Suitable For
-IBM SkillsBuild · Hackathons · Academic Presentations · Startup Incubators · AI Showcases
+
+IBM SkillsBuild &nbsp;·&nbsp; Hackathons &nbsp;·&nbsp; Academic Presentations &nbsp;·&nbsp; Startup Incubators &nbsp;·&nbsp; AI Showcases
 
 ---
 
 ## 👩‍💻 Built With
+
 Made with ❤️ using **IBM Granite Models** on **IBM watsonx.ai Studio**
 
 ---
 
 ## 📄 License
+
 MIT License — Free to use and modify
